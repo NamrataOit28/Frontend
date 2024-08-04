@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window{
+    height: 100px;
+    width: 150px;
+    background-color:darkcyan;
+}
+
+.window:hover{
+    /* transform:rotate(360deg);/*changes*/
+    /* transition-property:transform;/*what type change u want*/ /*particular property :transform  ,all property :all*/
+    /* transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transform-origin: center left; */
+
+    /* transform:perspective(300px) rotateX(80deg);
+    transform-origin:bottom;
+    transition:all;
+    transition-duration:1s;
+    transition-timing-function:linear;
+  */
+
+  /* transform: perspective(200px) rotateY(-30deg);
+  transition-property:all;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transform-origin: right bottom; */
+}
