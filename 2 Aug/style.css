@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 300px;
+    width: 300px;
+
+}
+.box{
+    height: 80%;
+    width: 80%;
+    padding:10%;
+    background-color: white;
+    border: 1px solid black;
+    animation: Rotate 5s ease-in-out infinite;
+    border-radius: 20%;
+}
+.b{
+    background-color: black;
+}
+@keyframes Rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
