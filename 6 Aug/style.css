@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+img{
+    height: 500px;
+    /* filter: blur(2px); */
+    /* filter: brightness(1); */
+    /* filter: contrast(2); */
+    /* filter: drop-shadow(10px 10px 5px gray); */
+    /* filter: grayscale(0); */
+    /* filter: hue-rotate(180deg); */
+    /* filter: invert(); */
+    /* filter: opacity(0.5); */
+    /* filter: saturate(2); */
+    /* filter: sepia(0.5); */
+   /* filter: saturate(2) drop-shadow(10px 10px 5px gray); */
+}
